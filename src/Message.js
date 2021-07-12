@@ -4,7 +4,7 @@ function Message(props) {
     return (
         <div className="message">
             <header className="Message-header">
-                <h6>Hello, {props.name}</h6>
+                <h5>Hello, {props.name}!</h5>
             </header>
         </div>
     );
